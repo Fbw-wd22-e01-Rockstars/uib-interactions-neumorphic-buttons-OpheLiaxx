@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 1rem;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div > img {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    padding: 10px ;
+    
+     
+}
+
+.cut, .copy, .paste{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: lightgray;
+    font-weight: bold;
+    padding-left: 20px;
+  
+}
+
+.cut:hover, .copy:hover, .paste:hover {
+    color: rgb(218, 24, 176);
+    box-shadow: inset rgb(202, 202, 202) 5px 5px 10px,  whitesmoke -3px -3px 10px; 
+    
+
+}
+
